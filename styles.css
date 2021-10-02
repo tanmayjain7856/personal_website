@@ -1,0 +1,107 @@
+body {
+  color: #330857;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: white;
+}
+h1 {
+  color: #330857;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  color: #330857;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+hr {
+  border: dotted rgb(194, 145, 234) 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.sub-heading {
+  color: #330857;
+  font-weight: normal;
+}
+h3 {
+  color: rgba(111, 34, 188);
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  line-height: 2;
+}
+.top {
+  background-image: url("mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 50px;
+}
+.middle {
+  margin: 100px 0;
+}
+.profile p {
+  width: 30%;
+  margin: auto;
+}
+.profile img {
+  height: 200px;
+  width: 200px;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+.skill-row .skill-image {
+  width: 33%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row .video-games-image {
+  width: 33%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me p{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.contact-button {
+  background: linear-gradient(#c291ea, #330857);
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.contact-button:hover {
+  background: linear-gradient(#330857, #c291ea);
+}
+.bottom {
+  background-color: #330857;
+  padding: 50px 0 5px 0;
+}
+.bottom a {
+  color: rgba(111, 34, 188);
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.bottom a:hover {
+  color: #c291ea;
+  text-decoration: underline;
+}
+.bottom p {
+  color: #c291ea;
+  font-size: 0.73rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 50px 0 0;
+  margin: 0;
+}
